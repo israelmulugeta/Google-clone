@@ -1,0 +1,57 @@
+.hyperButtons{
+    display: flex;
+    width: auto;
+    justify-content: end;
+}
+
+.hyperlink{
+    margin-right: 20px;
+    padding: 10Px;
+    margin-top: 5px;
+}
+
+.hyperlinkI1{
+    padding: 10Px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.hyperlinkI2{
+    padding: 10Px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.RegularSearchContainer{
+    margin-top: 120px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.indexForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.indexSearchArea{
+height:27px;
+width:443Px;
+border-radius: 20px;
+padding: 5px 8px 0 14px;
+border:1px solid grey ;
+}
+
+.indexSubmitButton{
+ width: 25%;
+ height:30px;
+ margin-top:20px;
+ margin-left:40%;
+}
