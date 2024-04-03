@@ -62,3 +62,7 @@ border:1px solid grey ;
     justify-content: space-around;
     flex-direction: column;
 }
+
+.advancedQuery{
+    width: 50%;
+}
