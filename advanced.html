@@ -13,30 +13,31 @@
         </button>
     </div>
 
-    <div>
-        <form target="_blank" class="advancedQueries">
-            <div class="advancedQuery">
-                <label for="ALL">all these words:</label>
-                <input type="text" name="ALL"><br>
-            </div>
-
-            <div class="advancedQuery">
-                <label for="EXACT">this exact word or phrase:</label>
-                <input type="text" name="EXACT">
-            </div>
-
-            <div class="advancedQuery">
-                <label for="EXACT">this exact word or phrase:</label>
-                <input type="text" name="EXACT">
-            </div>
-           
-            <div class="advancedQuery"> 
-                <label for="NONE">none of these words:</label>
-                <input type="text" name="NONE">
-            </div>
-            
-        </form>
-    </div>
+   
         
+<form class="trialContainer" action="https://www.google.com/search">
+   <div class="trial"> 
+        <div class="myText">
+         <label for="ALL"> all these words:</label>
+         <label for="EXACT">this exact word or phrase:</label>
+         <label for="ANY">any of these words:</label>
+         <label for="NONE">none of these words:</label>
+        </div>
+        <div class="myInput">
+          <input  name="as_q" type="text">
+          <input  name="as_epq" type="text">
+          <input  name="as_oq" type="text">
+          <input name="as_eq"type="text">
+        </div>
+    </div>
+    <div class="advancedSumit">
+        <input type="submit" value="advanced search" id="advancedSumitButton">
+    </div>
+
+    </div>    
+</form>
+
+
+    
 </body>
 </html>

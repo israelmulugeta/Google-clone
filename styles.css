@@ -61,8 +61,39 @@ border:1px solid grey ;
     height:300px;
     justify-content: space-around;
     flex-direction: column;
+    margin-left: 3%;
+
 }
 
 .advancedQuery{
     width: 50%;
+}
+
+.trialContainer{
+    margin-left: 2%;
+}
+.trial{
+    display: flex;
+    height: 300px;
+}
+
+.myText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.myInput{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 1%;
+    justify-content: space-around;
+}
+#advancedSumitButton{
+    background-color: #4d90fe;
+    padding: 4px;
+    width: 10%;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
 }
