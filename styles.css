@@ -27,7 +27,7 @@ a{
 }
 
 .RegularSearchContainer{
-    margin-top: 120px;
+    margin-top: 1px;
     height: 100px;
     width: auto;
     display: flex;
@@ -54,6 +54,9 @@ border:1px solid grey ;
  height:30px;
  margin-top:20px;
  margin-left:40%;
+}
+.indexSubmitButtons{
+    display: flex;
 }
 
 .advancedQueries{
@@ -97,3 +100,20 @@ border:1px solid grey ;
     color: #fff;
     border-radius: 2px;
 }
+
+.googleLogoDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.googleLogoLetter{
+    font-size: 100px;
+    font-weight: 600;
+}
+
+#G{ color: blue;}
+#O{ color:red ;}
+#O2{color:yellow ;}
+#G{color: blue;}
+#L{color: green ;}
+#E{color: red;}
