@@ -7,37 +7,48 @@
     <link href="./styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="hyperButtons">
-        <button class="hyperlink">
-            <a  href="./index.html">Regular search</a>
-        </button>
+    <div class="advancedHeader"> 
+        <div>
+            <img class ="LogoGoogleAdvanced" src="https://images.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div class="hyperButtons">
+            <button class="hyperlink">
+                <a  href="./index.html">Regular search</a>
+            </button>
+        </div>
     </div>
 
+    <div class="AdvancedTextDiv">
+        <div class="AdvancedText">Advanced Search</div>
+    </div>
+    
    
-        
-<form class="trialContainer" action="https://www.google.com/search">
-   <div class="trial"> 
-        <div class="myText">
-         <label for="ALL"> all these words:</label>
-         <label for="EXACT">this exact word or phrase:</label>
-         <label for="ANY">any of these words:</label>
-         <label for="NONE">none of these words:</label>
-        </div>
-        <div class="myInput">
-          <input  name="as_q" type="text">
-          <input  name="as_epq" type="text">
-          <input  name="as_oq" type="text">
-          <input name="as_eq"type="text">
-        </div>
-    </div>
-    <div class="advancedSumit">
-        <input type="submit" value="advanced search" id="advancedSumitButton">
-    </div>
-
-    </div>    
-</form>
-
-
+  
+   <div>
+    
+    <form class="trialContainer" action="https://www.google.com/search">
+        <div class="findPagesText">Find pages with...</div>
+        <div class="trial"> 
+             <div class="myText">
+              <label for="ALL"> all these words:</label>
+              <label for="EXACT">this exact word or phrase:</label>
+              <label for="ANY">any of these words:</label>
+              <label for="NONE">none of these words:</label>
+             </div>
+             <div class="myInput">
+               <input  name="as_q" type="text">
+               <input  name="as_epq" type="text">
+               <input  name="as_oq" type="text">
+               <input name="as_eq"type="text">
+             </div>
+         </div>
+         <div class="advancedSumit">
+             <input type="submit" value="advanced search" id="advancedSumitButton">
+         </div>
+     
+         </div>    
+       </form>
+  </div>  
     
 </body>
 </html>

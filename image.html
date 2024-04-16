@@ -13,12 +13,18 @@
         </button>
     </div>
 
-    <div>
-        <form target="_blank" action="https://google.com/search"> <!-- what does the action tag on a form do?-->
-            <input  name="q" name  type="text" > <!-- what does this mean -->
-            <input type="hidden" name="tbm" value="isch"> <!-- what does this mean -->
-            <input type="submit" value="Search"> <!-- what does this mean -->
-        </form>
+    <div class="GoogleLogo">
+       <img src="https://images.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+       <div class="GoogleLogoImages">images</div>
+    </div>
+    <div class="ImageSearch">
+        <div class="searchAreaStyle">
+            <form target="_blank" action="https://google.com/search"> <!-- what does the action tag on a form do?-->
+                <input autocomplete="off" class="ImageSearchArea" name="q" name  type="text"> <!-- what does this mean -->
+                <input type="hidden" name="tbm" value="isch"> <!-- what does this mean -->
+                <input class="searchicon" type="image" src="https://www.freeiconspng.com/uploads/search-icon-png-2.png" alt="submit"> <!-- what does this mean -->
+            </form> 
+        </div>
     </div>
 </body>
 </html>
