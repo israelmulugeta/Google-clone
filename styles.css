@@ -42,21 +42,29 @@ a{
 }
 
 .indexSearchArea{
-height:27px;
-width:443Px;
+height:34px;
+width:520Px;
 border-radius: 20px;
 padding: 5px 8px 0 14px;
-border:1px solid grey ;
+border: 0.02px solid grey ;
 }
 
 .indexSubmitButton{
- width: 25%;
+ width: 22%;
  height:30px;
  margin-top:20px;
- margin-left:40%;
+ margin-left:20%;
+ margin-right: 10%;
 }
+
+.indexSubmitButton1{
+    width: 25%;
+    height:30px;
+    margin-top:20px;
+   }
 .indexSubmitButtons{
     display: flex;
+    align-items: flex-start;
 }
 
 .advancedQueries{
@@ -104,16 +112,21 @@ border:1px solid grey ;
 .googleLogoDiv{
     display: flex;
     justify-content: center;
+    height: 92px;
+    padding-top:10px;
+    margin-bottom: 30px;
 }
 
 .googleLogoLetter{
-    font-size: 100px;
-    font-weight: 600;
+    font-size: 92px;
+    font-family:sans-serif;
+    font-weight: light;
 }
 
-#G{ color: blue;}
-#O{ color:red ;}
-#O2{color:yellow ;}
-#G{color: blue;}
-#L{color: green ;}
-#E{color: red;}
+#G{ color:#4285F4; }
+#G{ color:#4285F4; }
+#O{ color: #EA4335; }
+#O2{color: #FBBC05;}
+#G{color: #4285F4;}
+#L{color: #34A853;}
+#E{color: #EA4335;}
